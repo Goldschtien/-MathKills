@@ -19,7 +19,7 @@ public class MainMenu extends AppCompatActivity {
         Button startGameButton = (Button) findViewById(R.id.startGameButton);
         Button settingsButton = (Button) findViewById(R.id.settingsButton);
         Button creditsButton = (Button) findViewById(R.id.creditsButton);
-        TextView highScoreText = (TextView) findViewById(R.id.highScoreTextView);
+        TextView highScoreText = (TextView) findViewById(R.id.highScoreText);
     }
 
     //Starts the game when "Start Game" button is clicked
@@ -29,11 +29,13 @@ public class MainMenu extends AppCompatActivity {
 
     //Opens the settings when "Settings" button is clicked
     public void settings(View view){
-
+        Intent i = new Intent(this, Settings.class);
+        startActivity(i);
     }
 
     //Opens credits screen when "Credits" button is clicked
     public void credits(View view){
-
+        Intent i = new Intent(this, Credits.class);
+        startActivity(i);
     }
 }

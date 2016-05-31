@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
-public class Credits extends AppCompatActivity {
+public class Settings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_credits);
+        setContentView(R.layout.activity_settings);
     }
 
     //Navigates back to Main Menu
