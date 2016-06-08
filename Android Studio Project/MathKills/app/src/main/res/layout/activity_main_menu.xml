@@ -40,15 +40,14 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:text="Credits"
         android:id="@+id/creditsButton"
-        android:layout_below="@+id/settingsButton"
-        android:layout_centerHorizontal="true"
         android:textColor="#ffffff"
         android:onClick="credits"
         android:background="@drawable/mainmenu_button"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_below="@+id/settingsButton"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
