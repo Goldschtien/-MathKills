@@ -31,4 +31,31 @@
         android:layout_alignParentStart="true"
         android:onClick="backToMenu"
         android:background="#00ff00" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BGM"
+        android:textSize="20sp"
+        android:id="@+id/bgmSwitch"
+        android:layout_below="@+id/settingsToMenuButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_toStartOf="@+id/textView5"
+        android:layout_toLeftOf="@+id/textView5" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SFX"
+        android:textSize="20sp"
+        android:id="@+id/sfxSwitch"
+        android:layout_below="@+id/bgmSwitch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/bgmSwitch"
+        android:layout_alignEnd="@+id/bgmSwitch"
+        android:layout_marginTop="10dp" />
+
 </RelativeLayout>

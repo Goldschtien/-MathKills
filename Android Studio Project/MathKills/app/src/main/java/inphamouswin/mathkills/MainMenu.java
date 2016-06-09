@@ -14,26 +14,30 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
+        // Starts the Background Music Service
+        Intent BGM = new Intent();
+        BGM.setClass(this, BackgroundMusicService.class);
+        startService(BGM);
 
-        //Identified all widgets on main menu
+        // Referenced all widgets on "main menu" screen
         Button startGameButton = (Button) findViewById(R.id.startGameButton);
         Button settingsButton = (Button) findViewById(R.id.settingsButton);
         Button creditsButton = (Button) findViewById(R.id.creditsButton);
         TextView highScoreText = (TextView) findViewById(R.id.highScoreText);
     }
 
-    //Starts the game when "Start Game" button is clicked
+    // Starts the game when "Start Game" button is clicked
     public void startGame(View view){
 
     }
 
-    //Opens the settings when "Settings" button is clicked
+    // Navigates to the "settings" activity when "Settings" button is clicked
     public void settings(View view){
         Intent i = new Intent(this, Settings.class);
         startActivity(i);
     }
 
-    //Opens credits screen when "Credits" button is clicked
+    // Navigates to the "credits" activity when "Credits" button is clicked
     public void credits(View view){
         Intent i = new Intent(this, Credits.class);
         startActivity(i);
