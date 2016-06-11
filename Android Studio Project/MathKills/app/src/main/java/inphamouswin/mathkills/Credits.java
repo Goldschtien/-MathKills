@@ -11,6 +11,11 @@ public class Credits extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_credits);
+
+        // Starts the Background Music Service
+        Intent BGM = new Intent();
+        BGM.setClass(this, BackgroundMusicService.class);
+        startService(BGM);
     }
 
     // Navigates to "main menu" activity when "Back" button is clicked

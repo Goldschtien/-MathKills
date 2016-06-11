@@ -23,7 +23,7 @@ public class BackgroundMusicService extends Service {
     public void onCreate() {
         super.onCreate();
         // References the Alan Walker's Faded BGM file
-        player = MediaPlayer.create(this, R.raw.Faded_Alan_Walker);
+        player = MediaPlayer.create(this, R.raw.faded_alan_walker);
         // Loops the music
         player.setLooping(true);
         // Sets the volume
