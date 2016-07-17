@@ -18,10 +18,6 @@
         <activity android:name=".Credits" />
         <activity android:name=".Settings" />
 
-        <service
-            android:name=".BackgroundMusicService"
-            android:enabled="true"
-            android:exported="true"></service>
     </application>
 
 </manifest>

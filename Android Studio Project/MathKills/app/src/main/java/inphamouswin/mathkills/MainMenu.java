@@ -14,11 +14,6 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        // Starts the Background Music Service
-        Intent BGM = new Intent();
-        BGM.setClass(this, BackgroundMusicService.class);
-        startService(BGM);
-
         // Referenced all widgets on "main menu" screen
         Button startGameButton = (Button) findViewById(R.id.startGameButton);
         Button settingsButton = (Button) findViewById(R.id.settingsButton);
