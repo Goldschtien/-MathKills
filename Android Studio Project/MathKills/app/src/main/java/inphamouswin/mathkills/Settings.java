@@ -18,11 +18,6 @@ public class Settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        // Starts the Background Music Service
-        Intent BGM = new Intent();
-        BGM.setClass(this, BackgroundMusicService.class);
-        startService(BGM);
-
         // Referenced widgets on "settings" screen
         bgmSwitch = (Switch) findViewById(R.id.bgmSwitch);
 
