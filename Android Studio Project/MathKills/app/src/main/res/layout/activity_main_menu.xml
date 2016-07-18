@@ -60,4 +60,11 @@
         android:layout_above="@+id/startGameButton"
         android:layout_centerHorizontal="true" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/game_logo"
+        android:layout_above="@+id/highScoreText"/>
+
 </RelativeLayout>
