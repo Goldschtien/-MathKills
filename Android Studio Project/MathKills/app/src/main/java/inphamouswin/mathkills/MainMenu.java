@@ -6,8 +6,12 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
+import android.media.MediaPlayer;
 
 public class MainMenu extends AppCompatActivity {
+
+
+    MediaPlayer bgm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +23,18 @@ public class MainMenu extends AppCompatActivity {
         Button settingsButton = (Button) findViewById(R.id.settingsButton);
         Button creditsButton = (Button) findViewById(R.id.creditsButton);
         TextView highScoreText = (TextView) findViewById(R.id.highScoreText);
+        //creates music on MainMenu
+        bgm = MediaPlayer.create(MainMenu.this, R.raw.faded_alan_walker);
+        while(!bgm.isPlaying())
+        {
+            bgm.setLooping(true);
+            bgm.start();
+        }
+
+
+
+
+
     }
 
     // Starts the game when "Start Game" button is clicked
@@ -37,4 +53,13 @@ public class MainMenu extends AppCompatActivity {
         Intent i = new Intent(this, Credits.class);
         startActivity(i);
     }
+
+   /* @Override
+    protected void onPause() {
+        super.onPause();
+        bgm.release();
+        finish();
+
+    }*/
 }
+
