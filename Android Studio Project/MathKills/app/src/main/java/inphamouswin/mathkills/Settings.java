@@ -8,10 +8,12 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Switch;
 import android.widget.Toast;
+import android.media.MediaPlayer;
 
 public class Settings extends AppCompatActivity {
 
     private Switch bgmSwitch;
+  //  MediaPlayer bgm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,23 +29,35 @@ public class Settings extends AppCompatActivity {
         bgmSwitch.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(isChecked){
+                if (isChecked) {
                     // If switch is ON, then Toast will say BGM is on
                     Toast.makeText(getApplicationContext(), "BGM is on.", Toast.LENGTH_SHORT).show();
-                }
-                else {
+                } else {
                     // If switch is OFF, then Toast will say BGM is off
                     Toast.makeText(getApplicationContext(), "BGM is off.", Toast.LENGTH_SHORT).show();
                 }
+
+              //  bgm = MediaPlayer.create(Settings.this, R.raw.faded_alan_walker);
+               // bgm.setLooping(true);
+               // bgm.start();
             }
         });
     }
 
     // Navigates to the "main menu" activity when "Back" button is clicked
-    public void backToMenu(View view){
-        Intent i = new Intent(this, MainMenu.class);
-        startActivity(i);
+    public void backToMenu(View view) {
+        //Intent i = new Intent(this, MainMenu.class);
+        //startActivity(i);
+        finish();
     }
 
+  /*  @Override
+    protected void onPause(){
+        super.onPause();
+        bgm.release();
+        finish();
+    }*/
 
 }
+
+
