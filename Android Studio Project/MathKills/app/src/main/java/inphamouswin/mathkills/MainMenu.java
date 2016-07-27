@@ -25,15 +25,8 @@ public class MainMenu extends AppCompatActivity {
         TextView highScoreText = (TextView) findViewById(R.id.highScoreText);
         //creates music on MainMenu
         bgm = MediaPlayer.create(MainMenu.this, R.raw.faded_alan_walker);
-        while(!bgm.isPlaying())
-        {
-            bgm.setLooping(true);
-            bgm.start();
-        }
-
-
-
-
+        bgm.setLooping(true);
+        bgm.start();
 
     }
 
@@ -54,12 +47,18 @@ public class MainMenu extends AppCompatActivity {
         startActivity(i);
     }
 
-   /* @Override
+    /*@Override
     protected void onPause() {
         super.onPause();
-        bgm.release();
-        finish();
+        bgm.pause();
+        //finish();
 
+    }
+    @Override
+    protected void onResume(){
+        super.onResume();
+        bgm.reset();
     }*/
+
 }
 
