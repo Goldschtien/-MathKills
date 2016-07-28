@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: b14c290846092c541b7a12faab79745f
+timeCreated: 1469693031
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pencil_0
+    21300002: Pencil_1
+    21300004: Pencil_2
+    21300006: Pencil_3
+    21300008: Pencil_4
+    21300010: Pencil_5
+    21300012: Pencil_6
+    21300014: Pencil_7
+    21300016: Pencil_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Pencil_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 140
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 61.5}
+        - {x: 66, y: 63.5}
+        - {x: 48, y: 63.5}
+        - {x: 11, y: 47.5}
+        - {x: -19, y: 20.5}
+        - {x: -70, y: -25.5}
+        - {x: -70, y: -53.5}
+        - {x: -69, y: -61.5}
+        - {x: -43, y: -61.5}
+        - {x: -21, y: -43.5}
+        - {x: 41, y: 16.5}
+        - {x: 67, y: 52.5}
+    - name: Pencil_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 708
+        width: 117
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 78}
+        - {x: 0.5, y: 49}
+        - {x: -54.5, y: -49}
+        - {x: -54.5, y: -71}
+        - {x: -44.5, y: -78}
+        - {x: -20.5, y: -78}
+        - {x: -15.5, y: -75}
+        - {x: 49.5, y: 44}
+        - {x: 49.5, y: 78}
+    - name: Pencil_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 706
+        width: 76
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 79}
+        - {x: -18, y: 57}
+        - {x: -18, y: -63}
+        - {x: -17, y: -77}
+        - {x: -15, y: -79}
+        - {x: 12, y: -79}
+        - {x: 16, y: -77}
+        - {x: 16, y: 42}
+        - {x: 4, y: 79}
+    - name: Pencil_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 706
+        width: 125
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 79}
+        - {x: -43.5, y: 50}
+        - {x: -37.5, y: 25}
+        - {x: 24.5, y: -75}
+        - {x: 46.5, y: -75}
+        - {x: 60.5, y: -68}
+        - {x: 60.5, y: -23}
+        - {x: -22.5, y: 79}
+    - name: Pencil_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 728
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: 68}
+        - {x: -68.5, y: 51}
+        - {x: -56.5, y: 14}
+        - {x: 37.5, y: -59}
+        - {x: 70.5, y: -59}
+        - {x: 70.5, y: -7}
+        - {x: -37.5, y: 68}
+    - name: Pencil_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 707
+        width: 117
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 38.5}
+        - {x: 17.5, y: -77.5}
+        - {x: 42.5, y: -77.5}
+        - {x: 54.5, y: -71.5}
+        - {x: 54.5, y: -47.5}
+        - {x: -21.5, y: 75.5}
+        - {x: -26.5, y: 76.5}
+        - {x: -49.5, y: 76.5}
+        - {x: -49.5, y: 43.5}
+    - name: Pencil_6
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 693
+        width: 74
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 85.5}
+        - {x: -13, y: 85.5}
+        - {x: -18, y: 61.5}
+        - {x: -18, y: -46.5}
+        - {x: -17, y: -63.5}
+        - {x: -17, y: -70.5}
+        - {x: -7, y: -73.5}
+        - {x: 8, y: -73.5}
+        - {x: 12, y: -70.5}
+        - {x: 16, y: -66.5}
+        - {x: 16, y: 49.5}
+    - name: Pencil_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 702
+        width: 108
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 80}
+        - {x: -54, y: -23}
+        - {x: -54, y: -76}
+        - {x: -16, y: -76}
+        - {x: 49, y: 20}
+        - {x: 49, y: 80}
+    - name: Pencil_8
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 721
+        width: 145
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 70.5}
+        - {x: -67.5, y: -7.5}
+        - {x: -67.5, y: -45.5}
+        - {x: -58.5, y: -56.5}
+        - {x: -43.5, y: -56.5}
+        - {x: -34.5, y: -53.5}
+        - {x: 26.5, y: -10.5}
+        - {x: 71.5, y: 54.5}
+        - {x: 71.5, y: 70.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
