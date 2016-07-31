@@ -61,10 +61,11 @@
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
         android:id="@+id/imageView"
-        android:src="@drawable/game_logo"
-        android:layout_above="@+id/highScoreText"/>
+        android:layout_above="@+id/highScoreText"
+        android:src="@drawable/math_kills_logo"
+        android:layout_alignParentTop="true" />
 
 </RelativeLayout>

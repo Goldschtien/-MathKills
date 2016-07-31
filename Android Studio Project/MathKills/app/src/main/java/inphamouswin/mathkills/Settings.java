@@ -3,12 +3,10 @@ package inphamouswin.mathkills;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.content.Intent;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Switch;
 import android.widget.Toast;
-import android.media.MediaPlayer;
 
 public class Settings extends AppCompatActivity {
 
@@ -35,11 +33,10 @@ public class Settings extends AppCompatActivity {
                 } else {
                     // If switch is OFF, then Toast will say BGM is off
                     Toast.makeText(getApplicationContext(), "BGM is off.", Toast.LENGTH_SHORT).show();
+
                 }
 
-              //  bgm = MediaPlayer.create(Settings.this, R.raw.faded_alan_walker);
-               // bgm.setLooping(true);
-               // bgm.start();
+
             }
         });
     }
@@ -56,7 +53,7 @@ public class Settings extends AppCompatActivity {
         super.onPause();
         bgm.release();
         finish();
-    }*/
+}*/
 
 }
 
