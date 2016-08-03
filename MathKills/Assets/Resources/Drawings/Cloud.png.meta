@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 8dde88f16d4c1ba43bb299c9e0de2625
+timeCreated: 1470212903
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cloud_0
+    21300002: Cloud_1
+    21300004: Cloud_2
+    21300006: Cloud_3
+    21300008: Cloud_4
+    21300010: Cloud_5
+    21300012: Cloud_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cloud_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 182
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 56}
+        - {x: -20, y: 52}
+        - {x: -57, y: 17}
+        - {x: -60, y: -8}
+        - {x: -60, y: -37}
+        - {x: -31, y: -74}
+        - {x: 2, y: -74}
+        - {x: 69, y: -58}
+        - {x: 82, y: -37}
+        - {x: 82, y: 14}
+        - {x: 55, y: 56}
+    - name: Cloud_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 716
+        width: 125
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 41}
+        - {x: -47.5, y: 29}
+        - {x: -53.5, y: 6}
+        - {x: -53.5, y: -51}
+        - {x: -42.5, y: -72}
+        - {x: 46.5, y: -72}
+        - {x: 62.5, y: -39}
+        - {x: 62.5, y: 23}
+        - {x: 49.5, y: 41}
+    - name: Cloud_2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 723
+        width: 113
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 19.5}
+        - {x: -34.5, y: -3.5}
+        - {x: -41.5, y: -28.5}
+        - {x: -41.5, y: -45.5}
+        - {x: -29.5, y: -70.5}
+        - {x: 14.5, y: -70.5}
+        - {x: 45.5, y: -65.5}
+        - {x: 53.5, y: -51.5}
+        - {x: 53.5, y: 13.5}
+        - {x: 51.5, y: 19.5}
+    - name: Cloud_3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 727
+        width: 96
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 3.5}
+        - {x: -35, y: -16.5}
+        - {x: -35, y: -55.5}
+        - {x: -20, y: -66.5}
+        - {x: 33, y: -66.5}
+        - {x: 46, y: -45.5}
+        - {x: 46, y: -8.5}
+        - {x: 34, y: 3.5}
+    - name: Cloud_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 727
+        width: 107
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 26.5}
+        - {x: -48.5, y: -4.5}
+        - {x: -48.5, y: -48.5}
+        - {x: -38.5, y: -64.5}
+        - {x: -3.5, y: -64.5}
+        - {x: 34.5, y: -53.5}
+        - {x: 46.5, y: -34.5}
+        - {x: 46.5, y: -2.5}
+        - {x: 33.5, y: 26.5}
+    - name: Cloud_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 724
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 54}
+        - {x: -61, y: 17}
+        - {x: -61, y: -35}
+        - {x: -44, y: -58}
+        - {x: 12, y: -58}
+        - {x: 43, y: -42}
+        - {x: 56, y: -13}
+        - {x: 56, y: 20}
+        - {x: 29, y: 54}
+    - name: Cloud_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 717
+        width: 152
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 61}
+        - {x: -12, y: 61}
+        - {x: -61, y: 42}
+        - {x: -74, y: 10}
+        - {x: -74, y: -31}
+        - {x: -57, y: -69}
+        - {x: -5, y: -69}
+        - {x: 53, y: -50}
+        - {x: 68, y: -11}
+        - {x: 68, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
