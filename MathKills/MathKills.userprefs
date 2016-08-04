@@ -2,9 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BackgroundScroll.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\Scripts\CameraMovement.cs" Line="7" Column="57" />
       <File FileName="Assets\Scripts\Spawner.cs" Line="37" Column="38" />
       <File FileName="Assets\Scripts\BackgroundScroll.cs" Line="13" Column="3" />
+=======
+      <File FileName="Assets\Scripts\Spawner.cs" Line="27" Column="1" />
+>>>>>>> 7e3dd3aee457ede95027f7a2b7b048278391b237
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
